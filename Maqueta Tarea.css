@@ -1,0 +1,149 @@
+* {
+    margin: 0; /* Se establece el margen a 0 */
+    padding: 0; /* Se establece el relleno a 0 */
+    box-sizing: border-box; /* Se incluye el borde en el cálculo del tamaño */
+    text-decoration: none; /* Se elimina la decoración de texto */
+    list-style: none; /* Se eliminan los estilos de viñetas de las listas */
+}
+
+/* Estilos para el cuerpo */
+body {
+    background-color: #add8e6; /* Se establece el color de fondo */
+    font-family: 'georgia', serif; /* Se define la fuente */
+    border-radius: 2px 0px; /* Se establece el radio de borde */
+    background: linear-gradient(to left, black, blue, red); /* Se define un fondo degradado */
+    text-align: justify; /* Se justifica el texto */
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%; /* Se establece el ancho máximo de las imágenes */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 1200px; /* Se establece el ancho máximo */
+    margin: 0 auto; /* Se centra horizontalmente */
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #add8e6; /* Se establece el color de fondo */
+    background: linear-gradient(to left, black, blue, red); /* Se define un fondo degradado */
+    border-radius: 2px 0px 5rem 5em; /* Se establece el radio de borde */
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex; /* Se usa flexbox */
+    justify-content: space-between; /* Se distribuyen los elementos uniformemente */
+    align-items: center; /* Se alinean los elementos verticalmente */
+    padding: 20px 0; /* Se añade relleno superior e inferior */
+}
+
+/* Estilos para el logotipo */
+.logo {
+    color: FF8400; /* Se establece el color del texto */
+    font-size: 25px; /* Se define el tamaño de la fuente */
+    font-weight: 800; /* Se establece el grosor de la fuente */
+    text-transform: uppercase; /* Se convierte el texto a mayúsculas */
+}
+
+/* Estilos para los elementos del menú */
+.menu .navbar ul {
+    display: flex; /* Se usa flexbox */
+}
+
+.menu .navbar ul li a {
+    font-size: 18px; /* Se define el tamaño de la fuente */
+    padding: 0 20px; /* Se añade relleno horizontal */
+    color: #1B1B1D; /* Se establece el color del texto */
+    display: block; /* Se convierte en elemento de bloque */
+    font-weight: 600; /* Se establece el grosor de la fuente */
+}
+
+.menu .navbar ul li a:hover {
+    color: #FF8400; /* Se establece el color del texto al pasar el mouse */
+}
+
+/* Icono de menú */
+.menunicono {
+    widows: 25px; /* Se establece el ancho del icono */
+}
+
+.menu label {
+    cursor: pointer; /* Se cambia el cursor a un puntero */
+}
+
+/* Estilos para el contenido del encabezado */
+.header.content {
+    display: flex; /* Se usa flexbox */
+    justify-content: space-between; /* Se distribuyen los elementos uniformemente */
+    padding: 81px 0; /* Se añade relleno superior e inferior */
+}
+
+/* Estilos para el texto del encabezado */
+.header-txt {
+    flex-basis: 50%; /* Se establece la base de flexión */
+    padding-right: 100px; /* Se añade relleno derecho */
+}
+
+.header-txt h1 {
+    background: linear-gradient(to right, blueviolet, white, yellowgreen, black); /* Se define un fondo degradado */
+    font-size: 50px; /* Se define el tamaño de la fuente */
+    text-transform: uppercase; /* Se convierte el texto a mayúsculas */
+    margin-bottom: 14px; /* Se añade margen inferior */
+    -webkit-background-clip: text; /* Propiedad para aplicar el degradado solo al texto */
+    color: transparent; /* Hace que el texto sea transparente para mostrar el degradado */
+    text-align: center; /* Se alinea el texto al centro */
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 18px; /* Se define el tamaño de la fuente */
+    color: white; /* Se establece el color del texto */
+    margin-bottom: 25px; /* Se añade margen inferior */
+}
+
+/* Estilos para los botones */
+.btn-1 {
+    display: inline-block; /* Se convierte en elemento de bloque */
+    padding: 10px 25px; /* Se añade relleno */
+    color: #FFFFFF; /* Se establece el color del texto */
+    background-color: #FF8400; /* Se establece el color de fondo */
+    text-transform: uppercase; /* Se convierte el texto a mayúsculas */
+    border-radius: 25px; /* Se establece el radio de borde */
+    font-size: 16px; /* Se define el tamaño de la fuente */
+}
+
+/* Estilos para la imagen del encabezado */
+.header-img {
+    flex-basis: 50%; /* Se establece la base de flexión */
+    text-align: left; /* Se alinea el texto a la izquierda */
+    margin-left: 200px; /* Se añade margen izquierdo */
+}
+
+h2 {
+    color: #1B1B1D; /* Se establece el color del texto */
+    font-size: 40px; /* Se define el tamaño de la fuente */
+
+}
+
+/* Estilos para los enlaces del pie de página */
+
+.footer-content h2{
+
+background: linear-gradient(to right, blueviolet, white, yellow); /* Se define un fondo degradado */
+    font-size: 40px; /* Se define el tamaño de la fuente */
+    text-transform: uppercase; /* Se convierte el texto a mayúsculas */
+    margin-bottom: 14px; /* Se añade margen inferior */
+    -webkit-background-clip: text; /* Propiedad para aplicar el degradado solo al texto */
+    color: transparent; /* Hace que el texto sea transparente para mostrar el degradado */
+    
+
+}
+.footer-content h3{
+
+font-size: 45px; /* se define el tamaño de la fuente */
+
+}
